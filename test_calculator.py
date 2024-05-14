@@ -18,6 +18,9 @@ class TestCalculator(unittest.TestCase):
   def test_divide(self):
     self.assertEqual(self.calculator.divide(4, 2), 2)
 
+  def test_power(self):
+    self.assertEqual(self.calculator.power(2,8), 256)
+
   def test_divide_by_zero(self):
     with self.assertRaises(ValueError):
       self.calculator.divide(4, 0)
