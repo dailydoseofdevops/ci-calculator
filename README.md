@@ -1,1 +1,1 @@
-Calculator to demontrate Continuous Integration.
+Calculator to demontrate Continuous Integration
